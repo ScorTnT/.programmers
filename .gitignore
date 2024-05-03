@@ -1,0 +1,11 @@
+# Default ignored files
+/.idea
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+C/LV1/main.c
+C/LV1/main.exe
