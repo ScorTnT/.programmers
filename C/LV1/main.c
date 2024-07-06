@@ -4,10 +4,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "과일 장수.c"
+#include "달리기 경주.c"
 
 void main(void) {
-    int score[] = {4, 1, 2, 2, 4, 4, 4,4,1,2,4,2};
-    int answer = solution(4,3,score,12);
-    printf("answer %d",answer);
+    const char* players[]={"mumu", "soe", "poe", "kai", "mine"};
+    const char* callings[] = {"kai", "kai", "mine", "mine"};
+    char** answer = solution(players,5,callings,4);
+    printf("fin ");
+    for(int i=0;i<5;i++) printf("%s ",answer[i]);
 }
